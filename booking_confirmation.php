@@ -1,6 +1,6 @@
 <?php
 require_once 'database.php';
-
+   
 if (!isset($_GET['booking_id'])) {
     die("Booking ID is required.");
 }
