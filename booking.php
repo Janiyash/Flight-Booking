@@ -1,6 +1,6 @@
 <?php
 require_once 'database.php';
-
+   
 // Get flight and passenger details
 $flight_id = $_GET['flight_id'] ?? null;
 $passengers = $_GET['passengers'] ?? 1;
@@ -270,6 +270,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </body>
 
 </html> 
+
 
 
 
