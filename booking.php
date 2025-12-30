@@ -1,6 +1,6 @@
 <?php
 require_once 'database.php';
-
+  
 // Get flight and passenger details
 $flight_id = $_GET['flight_id'] ?? null;
 $passengers = $_GET['passengers'] ?? 1;
@@ -268,4 +268,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html> 
